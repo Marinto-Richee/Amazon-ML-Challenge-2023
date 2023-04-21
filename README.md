@@ -17,7 +17,8 @@ The dataset provided consists of two files, `train.csv` and `test.csv`, containi
 
 Participants are required to build a machine learning model that can predict the length of a product from the given metadata. The evaluation metric used for this hackathon is the mean absolute percentage error (MAPE), and the score is calculated using the following formula:
 
-```score = max(0, 100*(1 - metrics.mean_absolute_percentage_error(actual, predicted)))
+```
+score = max(0, 100*(1 - metrics.mean_absolute_percentage_error(actual, predicted)))
 ```
 
 ## Submission
